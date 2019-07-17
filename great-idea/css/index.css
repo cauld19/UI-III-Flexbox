@@ -63,4 +63,142 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*header*/
+
+.container {
+	width: 1000px;
+	margin: auto;
+	padding: 40px;
+}
+
+header {
+	width: 876px;
+}
+
+.container header nav {
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+
+header nav a {
+	text-decoration: none;
+	color: LightGray;
+}
+
+
+/* cta */
+
+.cta {
+	margin-top: 40px;
+	border-bottom: 1px solid black;
+	width: 876px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+
+.cta-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cta img {
+	height: 400px;
+	margin-bottom: 40px;
+}
+
+h1 {
+	font-size: 70px;
+	text-align: center;
+	margin: 0px;
+}
+
+.cta button {
+	display: block;
+	margin: 0 auto;
+	height: 30px;
+    width: 130px;
+    background-color: white;
+    border: 1px solid;
+    color: black;
+    font-family: inherit;
+}
+
+
+/* main content */
+
+.main-content { 
+	width: 876px; 
+	display: flex;
+	align-items: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.features {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 50%;
+}
+
+.middle-image {
+	width 100%;
+}
+
+/* bottom content */
+
+.bottom-content {
+	width: 876px;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.services {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 33%;
+}
+
+.product {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 33%;
+}
+
+.vision {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 33%;
+
+}
+
+/* contact */
+
+.contact {
+	border-top: 1px solid black;
+	text-align: left;
+	width: 876px;
+}
+
+footer .contact h4 {
+	margin-top: 40px;
+}
+
+.copyright {
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+	margin-top: 40px;
+}
