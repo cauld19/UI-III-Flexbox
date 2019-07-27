@@ -87,6 +87,23 @@ header nav a {
 	color: LightGray;
 }
 
+@media screen and (max-width: 600px) {
+	.container header nav {
+	  display: flex;
+	  flex-direction: column;
+	  width: 100%;
+
+	}
+  }
+
+  @media screen and (max-width: 600px) {
+	.container {
+		width: 600px;
+	}
+
+	}
+  }
+
 /*services*/
 
 .services {
